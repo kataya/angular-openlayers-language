@@ -11,6 +11,13 @@ export class ConfigService {
     const app = 
       await fetch(
           'config/app-config.json'
+      )
+      .catch(
+        async ()=> {
+          return fetch(
+            'config/app-config.template.json'
+          );
+        }
       );
     this.app = await app.json();
 
