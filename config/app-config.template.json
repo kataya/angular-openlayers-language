@@ -1,0 +1,36 @@
+{
+    "arcgis": {
+        "apiKey": ""
+    },
+    "default": {
+        "region": "sendai",
+        "lang": "ja",
+        "basemap": "light-gray"
+    },
+    "basemmaps": [
+        {
+            "id": "streets",
+            "label": "Streets"
+        },
+        {
+            "id": "topographic",
+            "label": "Topographic"
+        },
+        {
+            "id": "terrain",
+            "label": "Terrain"
+        },
+        {
+            "id": "light-gray",
+            "label": "Light"
+        },
+        {
+            "id": "oceans/labels",
+            "label": "Oceans"
+        },
+        {
+            "id": "imagery",
+            "label": "Imagery"
+        }
+    ]
+}
