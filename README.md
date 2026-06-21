@@ -2,6 +2,13 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.17.
 
+It demonstrates an OpenLayers application that uses an ArcGIS Location Platform API key to switch between vector tile basemaps and their label languages provided by the ArcGIS Basemap Styles service.
+
+It also supports switching to GSI (Geospatial Information Authority of Japan) raster tile basemaps.
+
+![angular-openlayers-basemap_services](https://github.com/kataya/angular-openlayers-language/blob/main/images/angular_openlayers_basemap_services.gif?raw=true)
+
+
 ## Development server
 
 To start a local development server, run:

@@ -1,5 +1,15 @@
 import { Injectable } from '@angular/core';
 
+//2026.6.21 - add
+export interface Basemap {
+  id: string;
+  label: string;
+  type: "arcgis" | "xyz";
+  style?: string;
+  url?: string;
+  attribution?: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -47,5 +57,10 @@ export class ConfigService {
 
   get basemap() {
     return this.app?.default?.basemap;
+  }
+
+  //2026.6.21 - add
+  getBasemaps() : Basemap[] {
+    return this.app?.basemaps ?? [];
   }
 }

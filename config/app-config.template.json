@@ -7,30 +7,63 @@
         "lang": "ja",
         "basemap": "light-gray"
     },
-    "basemmaps": [
+    "basemaps": [
         {
             "id": "streets",
-            "label": "Streets"
+            "label": "arcgis / streets",
+            "type": "arcgis",
+            "style": "streets"
         },
         {
             "id": "topographic",
-            "label": "Topographic"
+            "label": "arcgis / topographic",
+            "type": "arcgis",
+            "style": "topographic"
         },
         {
             "id": "terrain",
-            "label": "Terrain"
+            "label": "arcgis / terrain",
+            "type": "arcgis",
+            "style": "terrain"
         },
         {
             "id": "light-gray",
-            "label": "Light"
+            "label": "arcgis / light-gray",
+            "type": "arcgis",
+            "style": "light-gray"
         },
         {
-            "id": "oceans/labels",
-            "label": "Oceans"
+            "id": "oceans",
+            "label": "arcgis / oceans",
+            "type": "arcgis",
+            "style": "oceans"
         },
         {
             "id": "imagery",
-            "label": "Imagery"
+            "label": "arcgis / imagery",
+            "type": "arcgis",
+            "style": "imagery"
+        },
+        {
+            "id": "stdmap",
+            "label": "GSI / stdmap",
+            "type": "xyz",
+            "url": "https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png",
+            "attribution": "@ GSI Tiles"
+        },
+        {
+            "id": "palemap",
+            "label": "GSI / palemap",
+            "type": "xyz",
+            "url": "https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
+            "attribution": "@ GSI Tiles"
+        },
+        {
+            "id": "seamlessphoto",
+            "label": "GSI / seamlessphoto",
+            "type": "xyz",
+            "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg",
+            "attribution": "@ GSI Tiles"
         }
     ]
 }

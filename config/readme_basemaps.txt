@@ -11,7 +11,7 @@ https://developers.arcgis.com/documentation/mapping-and-location-services/mappin
 次くらいがあればいいかな？
  streets
  topographic
- oceans/labels
+ oceans
  terrain
  imagery
  light-gray

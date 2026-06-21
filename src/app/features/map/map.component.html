@@ -1,1 +1,24 @@
+
+<div class="toolbar">
+    <label for="basemapSelect">Basemap</label>
+    <select id="basemapSelect" 
+            (change)="onBasemapChange($event)"
+            [(ngModel)] = "currentBasemapId"
+            aria-label="Basemap selection">
+      <option *ngFor="let b of basemaps" [value]="b.id">
+        {{ b.label }}
+      </option>
+    </select>
+    <label for="langSelect">Language</label>
+    <select id="langSelect"
+            (change)="onLangChange($event)"
+            [disabled]="currentBasemap?.type !=='arcgis'"
+            [(ngModel)]="currentLang"
+            aria-label="Basemap Language selection">
+        <option value="ja">Japanese</option>
+        <option value="en">English</option>
+        <option value="local">Local</option>
+    </select>
+</div>
+
 <div id="map"></div>
