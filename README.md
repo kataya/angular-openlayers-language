@@ -6,8 +6,7 @@ It demonstrates an OpenLayers application that uses an ArcGIS Location Platform 
 
 It also supports switching to GSI (Geospatial Information Authority of Japan) raster tile basemaps.
 
-![angular-openlayers-basemap_services](https://github.com/kataya/angular-openlayers-language/blob/main/images/angular_openlayers_basemap_services.gif?raw=true)
-
+![angular-openlayers-basemap_services](https://github.com/kataya/angular-openlayers-language/blob/master/images/angular_openlayers_basemap_services.gif?raw=true)
 
 ## Development server
 
